@@ -13,7 +13,10 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-http-xml" % akkaHttpVersion,
       "com.typesafe.akka" %% "akka-stream" % akkaVersion,
-
+      "com.google.inject" % "guice" % "4.2.2",
+      "org.glassfish.jersey.core" % "jersey-server" % "2.28",
+      "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2",
+      "com.typesafe.play" %% "play-json" % "2.7.3",
       "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,
       "com.typesafe.akka" %% "akka-stream-testkit" % akkaVersion % Test,
